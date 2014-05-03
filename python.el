@@ -1,6 +1,3 @@
-
-;; python-mode settings
-
 ;;(require 'pycomplete)
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
 (autoload 'python-mode "python-mode" "Python editing mode." t)

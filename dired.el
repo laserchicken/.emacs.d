@@ -1,4 +1,3 @@
-;;;;dired;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;When moving to parent directory by `^´,
 ;;Dired by default creates a new buffer for each movement up.
 ;;The following rebinds `^´ to use the same buffer.
@@ -14,7 +13,6 @@
 (add-hook 'dired-load-hook
 	  (function (lambda () (load "dired-x"))))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;(dired) opens file in external app;;;;;;;;;;
 ;;http://ergoemacs.org/emacs/emacs_dired_open_file_in_ext_apps.html
 

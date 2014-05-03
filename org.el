@@ -1,5 +1,3 @@
-
-;;ORG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (add-to-list 'load-path "/usr/share/emacs/23.3/lisp/org")
 (require 'org-install)
 (require 'org-protocol)
@@ -14,7 +12,7 @@
                "|" "DONE(d!/!)" "CANCELLED(c@/!)")
               (sequence "INBOX"))))
 
-;;nie chce zeby eksportowalo slowa z podkreslnikami jako dolny indeks
+;;don't want to export words with underscore as lower index
 (setq org-export-with-sub-superscripts nil)
 
 ;;;;AGENDA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

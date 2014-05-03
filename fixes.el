@@ -1,5 +1,3 @@
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;https://gist.github.com/tkf/3951163
 ;; Workaround the annoying warnings:
 ;; Warning (mumamo-per-buffer-local-vars):

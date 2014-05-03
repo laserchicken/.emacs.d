@@ -1,5 +1,3 @@
-
-;;;;SPELLING;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq ispell-dictionary "en")
 
 (add-hook 'org-mode-hook

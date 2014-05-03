@@ -1,6 +1,4 @@
-
-;;;;TRAMP;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; sluzy do otwierania plikow zdalnie po ssh
+;;;opens files remotely (ssh)
 ;;(require 'tramp)
 ;;(setq tramp-default-method "ssh")
 ;;(setq tramp-shell-prompt-pattern "^[^>$][>$] *")

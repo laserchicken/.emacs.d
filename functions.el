@@ -1,4 +1,4 @@
-;;;;FUNCTIONS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;JUMP TO REPO BROWSER;;;;;;;;;;;;;;;;;;;;;;
 (setq local-remote-prefixes
   '(("/home/dev/Development/Smyk2.0" "https://subversion.ultimo.pl/trac/projects/browser/Smyk2.0")
     ("/home/dev/git/thefreedictionary-mode" "https://github.com/laserchicken/thefreedictionary-mode/blob")))

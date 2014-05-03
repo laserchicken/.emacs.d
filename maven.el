@@ -1,6 +1,4 @@
-
-;;;;MAVEN;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;integracja z mavenem
+;;maven integration
 ;;http://walterhiggins.net/blog/posterous-maven-and-emacs
 ;;http://vastusutra.blogspot.com/2007/06/getting-emacs-and-maven-2-to-play.html
 (require 'compile)
@@ -19,7 +17,7 @@
        (concat "mvn -f " dir "/pom.xml install -Dmaven.test.skip=true")))
     )))
 ;;(define-key java-mode-map "\C-c\C-x5" 'mvnfast)
-;;TODO : powyzsza linijka powoduje problem 
+;;TODO : above line is cause of a problem
 
 (defun mvn(&optional args)
   "Runs maven in the current project.

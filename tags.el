@@ -1,6 +1,5 @@
-
 ;;;;ETAGS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;funkcja tworzaca plik z tagami rekursywnie w zadanym katalogu, dla javy
+;;creates tags for (java) files in dir recursively
 (defun create-tags (dir-name)
   "Create tags file."
   (interactive "DDirectory: ")
@@ -9,7 +8,7 @@
 
 
 ;;;;JTAGS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;etags dostosowane do kodu javy
+;;;etags for java code
 ;;(add-to-list 'load-path "~/emacs/emacs-23.4/site-lisp")
 
 ;;(autoload 'jtags-extras "jtags-extras" "Load jtags-extras.")

@@ -1,4 +1,3 @@
-
 ;;;;OCTOPRES;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;http://blog.paphus.com/blog/2012/08/01/introducing-octopress-blogging-for-org-mode/
 (require 'org-octopress)
@@ -33,4 +32,3 @@
 ;;I don't use document title in my org posts (post has it title istead).
 ;;Common headers hierarchy is expected by my octpress theme.
 (setq org-export-octopress-toplevel-hlevel 1)
-

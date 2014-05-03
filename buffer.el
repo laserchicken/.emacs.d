@@ -1,4 +1,4 @@
-;;;;;transpozycja bufforów;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;buffers transpose;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;If you have a window split showing two buffers, you can transpose the two buffers
 (defun transpose-buffers (arg)
   "Transpose the buffers shown in two windows."

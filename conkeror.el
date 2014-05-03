@@ -1,14 +1,12 @@
-
-;;CONKEROR;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;dodajemy conkeror jako domyslna przegladarke (potrzebna w org-mode do otwierania linkow)
+;;conkeror as default browser
 (setq browse-url-browser-function 'browse-url-generic
       browse-url-generic-program "~/bin/conkeror")
 
 
-;; drugi template wziety ze str. http://emacs-fu.blogspot.com/2010/12/conkeror-web-browsing-emacs-way.html
-;; pozwala na capture z conkerora
-;; ;; the 'w' corresponds with the 'w' used before as in:
-;;   emacsclient \"org-protocol:/capture:/w/  [...]
+;;http://emacs-fu.blogspot.com/2010/12/conkeror-web-browsing-emacs-way.html
+;;it lets to capture from conkeror 
+;;the 'w' corresponds with the 'w' used before as in:
+;;emacsclient \"org-protocol:/capture:/w/  [...]
 
 (setq org-capture-templates
       (quote

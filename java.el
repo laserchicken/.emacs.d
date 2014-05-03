@@ -1,4 +1,3 @@
-
 ;;;;ECB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;emacs code browser
 ;; Load CEDET.
@@ -58,7 +57,8 @@
 (setq ecb-tip-of-the-day nil)  ;;wylacza tip of the day - wyskakiwalo niepotrzebne okienko
 
 ;;;;JAVA MODE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;tabulator ma miec 4 a nie 8 spacji (zarowno w nowotworzonym jak i w czytanym kodzie)
+;;tab is 4 not 8 spaces
+;;both in newly created and loaded source
 (add-hook 'java-mode-hook (lambda ()
                             (setq c-basic-offset 4
                                   tab-width 4
